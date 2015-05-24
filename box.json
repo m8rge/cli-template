@@ -1,0 +1,19 @@
+{
+  "chmod": "0755",
+  "directories" : [
+  ],
+  "files": [
+    "index.php"
+  ],
+  "finder": [
+    {
+      "name": "*.php",
+      "notPath": "test",
+      "in": "vendor"
+    }
+  ],
+  "main": "index.php",
+  "output": "app.phar",
+  "compression": "GZ",
+  "stub": true
+}
