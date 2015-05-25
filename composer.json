@@ -1,6 +1,6 @@
 {
     "name": "m8rge/cli-template",
-    "description": "",
+    "description": "cli template",
     "license": "MIT",
     "authors": [
         {
@@ -10,6 +10,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "mnapoli/silly": "dev-master"
+        "mnapoli/silly-php-di": "dev-master"
     }
 }
