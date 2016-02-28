@@ -1,6 +1,6 @@
 {
   "chmod": "0755",
-  "directories" : [
+  "directories": [
     "src"
   ],
   "files": [
@@ -9,12 +9,14 @@
   "finder": [
     {
       "name": "*.php",
-      "notPath": "test",
+      "notPath": "/test/i",
       "in": "vendor"
     }
   ],
+  "git-version": "version",
   "main": "index.php",
-  "output": "app.phar",
+  "output": "application.phar",
+  "stub": true,
   "compression": "GZ",
-  "stub": true
+  "compactors": "Herrera\\Box\\Compactor\\Php"
 }

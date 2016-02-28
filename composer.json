@@ -1,15 +1,15 @@
 {
     "name": "m8rge/cli-template",
-    "description": "cli template",
+    "description": "",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
-            "name": "m8rge",
+            "name": "Putilov Andrew",
             "email": "to.merge@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "mnapoli/silly-php-di": "dev-master"
+        "mnapoli/silly": "^1.3"
     }
 }
