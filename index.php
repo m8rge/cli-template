@@ -2,7 +2,7 @@
 
 use m8rge\GreetCommand;
 
-$autoLoader = require_once 'vendor/autoload.php';
+$autoLoader = require __DIR__ . '/vendor/autoload.php';
 $autoLoader->addPsr4('m8rge\\', __DIR__. '/src');
 
 $app = new Silly\Application('Application name', '@version@');
