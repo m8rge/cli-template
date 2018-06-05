@@ -9,7 +9,7 @@ use Symfony\Component\Console\Question\Question;
 
 class GreetCommand
 {
-    function __invoke(Application $app, InputInterface $input, OutputInterface $output)
+    public function __invoke(Application $app, InputInterface $input, OutputInterface $output)
     {
         /** @var \Symfony\Component\Console\Helper\QuestionHelper $helper */
         $helper = $app->getHelperSet()->get('question');
