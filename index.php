@@ -2,6 +2,7 @@
 
 use m8rge\GreetCommand;
 
+/** @var Composer\Autoload\ClassLoader $autoLoader */
 $autoLoader = require __DIR__ . '/vendor/autoload.php';
 $autoLoader->addPsr4('m8rge\\', __DIR__. '/src');
 
